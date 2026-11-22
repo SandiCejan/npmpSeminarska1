@@ -10,13 +10,7 @@ Datoteke za ponovitev vseh simulacij in analiz seminarske naloge.
 | `designs/MUX_SEN.qca` | Multiplexer2 s popravljenimi conami: zgornja vrata AND 2 → 0, OUT 0 → 1 |
 | `src/run_cve.c` | Gonilnik brez grafičnega vmesnika za pogon *Coherence Vector (w/ Energy)* QCADesigner-E 2.2 s tabelo vektorjev |
 | `src/run_one.sh`, `src/jobs.py` | Zagon ene simulacije in seznami vseh zagonov |
-| `src/analysis.py`, `src/delay_analysis.py`, `src/layout_metrics.py`, `src/report.py` | Analiza: energija, pravilnost, zakasnitve, metrike postavitev, tabele in grafi |
-| `runs/<oznaka>/` | Surovi rezultati vsake simulacije: `engine_log.txt` (izpis QCADesigner-E), `trace.csv.gz` (polarizacije in ure), `params.txt` |
-| `results/` | Zbirne tabele (CSV, JSON), `tables.tex` in `REZULTATI.md` |
 | `img/` | Grafi (PDF, PNG in JPG) |
-
-Oznake zagonov: `E_` energijske simulacije (48), `H_` polovični časovni korak (4), `D2_` vhodni prehodi za preverjanje
-zakasnitev (24).
 
 ## Nastavitve simulacij
 
